@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "api/meetings.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/meetings",
+      "dest": "api/meetings.js"
+    }
+  ]
+}
