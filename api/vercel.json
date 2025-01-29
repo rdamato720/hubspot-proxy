@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/*.js": { "runtime": "@vercel/node" }
+    "api/meetings.js": { "runtime": "@vercel/node" }
   },
   "routes": [
     {
